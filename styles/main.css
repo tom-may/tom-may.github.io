@@ -1,45 +1,41 @@
-body {
-    font-family: "Lato", sans-serif;
-    background: snow;
+* {
+  max-width: 960px;
+  margin: auto
+  
 
-  }
-  
-  .sidenav {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: ;
-    overflow-x: hidden;
-    padding: 8px 0;
-  }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    background: sandybrown
-  }
-  
-  .sidenav a:hover {
-    color: red;
-  }
-  
-  .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    position: sticky;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}
 
-  h1{
-      color: red;
-  }
+.title {
+  font-family: 'PT Serif', serif;
+  font-size: 60px;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 20%
+}
+
+.buttonNav {
+  background-color: white;
+  color: gray;
+  border: 0;
+  outline: none;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-bottom: 35%;
+}
+
+button:hover {
+color: red;
+}
+
+.buttonFoot {
+  background-color: white;
+  color:gray;
+  border: none;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  margin-right:10%;
+  margin-left: 90%;
+
+}
