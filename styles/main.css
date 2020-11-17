@@ -53,9 +53,9 @@ button:hover {
   outline: none;
   font-family: 'PT Serif', serif;
   font-size: 20px;
-  margin-right: 10%;
-  margin-left: 80%;
-  margin-top: 5%;
+  position: fixed;
+  bottom: 16px;
+  left: 90%;
 }
 
 /* Add a white background colour to the top navigation */
