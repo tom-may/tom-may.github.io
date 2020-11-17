@@ -1,18 +1,30 @@
+/* Make content responsive*/
 .content {
   max-width: 960px;
-  margin: auto
-  
-
+  margin: auto;
 }
 
+/* Add consistent title for subsequent pages */
 .title {
+  display: flex;
+  flex-direction: row;
   font-family: 'PT Serif', serif;
   font-size: 60px;
   text-align: left;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 10%;
-  margin-bottom: 20%
+  margin-bottom: 10%
 }
+
+/* Make front page image rounded */
+.titleImage {
+  border-radius: 20%;
+  margin-left: 15%;
+  width: 35%;
+  height: auto;
+}
+
+/* Configure page nav links */
 
 .buttonNav {
   background-color: white;
@@ -22,28 +34,32 @@
   font-family: 'PT Serif', serif;
   font-size: 30px;
   margin-left: 10%;
-  margin-bottom: 35%;
+  margin-bottom: 30%;
 }
 
+/* Change colour of links on hover */
+
 button:hover {
-color: red;
+  color: red;
 }
+
+/* Configure link on footer*/
 
 .buttonFoot {
   background-color: white;
-  color:gray;
+  color: gray;
   border: 0;
   outline: none;
   font-family: 'PT Serif', serif;
   font-size: 20px;
-  margin-right:10%;
+  margin-right: 10%;
   margin-left: 80%;
 
 }
 
-/* Add a black background color to the top navigation */
+/* Add a white background colour to the top navigation */
 .topNav {
-  background-color:white;
+  background-color: white;
   overflow: hidden;
   font-family: 'PT Serif', serif;
 }
@@ -58,14 +74,19 @@ color: red;
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Change the colour of Nav links on hover */
 .topNav a:hover {
   background-color: white;
   color: red;
 }
 
-/* Add a color to the active/current link */
+/* Add a colour to the active/current link */
 .topNav a.active {
   background-color: black;
   color: white;
+}
+
+/* Add background colour to blog content */
+.blogContent {
+  background-color: rgb(235, 235, 235);
 }
