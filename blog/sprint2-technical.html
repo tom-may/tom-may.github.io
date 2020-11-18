@@ -6,6 +6,9 @@
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 
@@ -36,16 +39,72 @@
 
         <div class="blogContent">
             <div class="blogEntry">
-                <h2 id="sprintOne">My first entry</h2>
+                <h1>CSS Class vs ID</h1>
+                <h2>The great debate</h2>
+                <h3>19 November 2020</h3>
                 <div class="flex-container">
-                    <div><img src="https://via.placeholder.com/350x250" alt="placeholder image"> </div>
-                    <div id="blogPost">
-                        <p> Here is my blog post</p>
+                    <div class="blogPost">
+                        <p> To the untrained eye, the CSS attributes of Class and ID may appear to have the exact same
+                            function. We set an id or class and we attribute a name:</p>
+
+                        <!-- Code image -->
+
+                        <p>Imagine this, we’re coding in HTML, we want to set a CSS style to our heading so that it
+                            appears blue. We could use either of the above, right? Right!</p>
+
+                        <p>Hold up </p>
+                        <img class="blogMedia"
+                            src="https://media.tenor.com/images/f9c5b754a46ea2b2a36e4a80e9e1e625/tenor.gif"
+                            alt="gif hold up">
+
+                        <p>What if we wanted to reuse this styling attribute again, for another title on the same page?
+                            This is where things get interesting.</p>
+
+                        <ul>
+                            <li><span class="style">The Class</span> attribute is designed so that it can be used many
+                                times over on
+                                the same page. It can be used multiple times on multiple elements - and elements can
+                                also use multiple classes!</li>
+                                <br>
+                            <li><span class="style">The ID</span> attribute on the other hand is designed to be <span
+                                    class="style">UNIQUE.</span> It is used to
+                                style only one element. Because of this, it should be used sparingly and only on
+                                elements that need to appear the same across the board.</li>
+                        </ul>
+
+                        <iframe class="blogMedia" width="560" height="315"
+                            src="https://www.youtube.com/embed/MGlXO5u9jUE?start=6" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+
+                        <p>So in this case, it would appear that if we want to make something blue, we should create a
+                            makeBlue class, rather than an ID. That way, we can use it again and again, to your heart’s
+                            content.</p>
+
+                        <p>This brings us to <span class="style"> Specificity. </span></p>
+
+                        <p>Browsers decide which CSS style to apply based on order of specificity. In order from leasr
+                            to
+                            most specific we have:</p>
+
+                        <ol>
+                            <li>Tags</li>
+                            <li>Classes</li>
+                            <li>ID's</li>
+                        </ol>
+                        <p>Best practice for using these attributes in CSS is to use the lowest degree of specificity
+                            first. This allows us to override the styling of an element using a more specific attribute.
+                        </p>
+
+                        <p>So when styling using CSS, use tags first, then class, then ID. And only use ID when you want
+                            one element to be unique!</p>
+
                     </div>
                 </div>
             </div>
         </div>
-          
+
     </div>
     <div>
         <footer><a href="https://www.youtube.com/watch?v=fWNaR-rxAic" target="_blank"><button class="buttonFoot"
@@ -56,4 +115,5 @@
 
 
 </body>
+
 </html>

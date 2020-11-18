@@ -1,6 +1,6 @@
 /* Set base font size for rem consistency */
-html{
-  font-size:16px;
+html {
+  font-size: 16px;
   font-family: 'PT Serif', serif;
 }
 
@@ -16,7 +16,7 @@ html{
 }
 
 /* Title for home page */
-.title{
+.title {
   display: flex;
   flex-direction: row;
   margin-top: 10%;
@@ -28,13 +28,13 @@ html{
   overflow: hidden;
 }
 
-.title h1{
+.title h1 {
   font-size: 7rem;
 }
 
 /* Home page image */
 .titleImage {
-  border-radius: 20%;
+  border-radius: 10%;
   margin-left: 10%;
   width: auto;
   max-height: 90%;
@@ -138,49 +138,82 @@ html{
 /* Add background colour to blog content */
 .blogContent {
   background-color: rgb(245, 245, 245);
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 2rem;
   margin-bottom: 10%;
-  border-radius: 5%;
+  border-radius: 0.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.blogEntry {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Flex container for blog posts */
 .flex-container {
   display: flex;
-  flex-direction: row;
-  height: 500px;
-  align-items: center;
+  flex-direction: column;
+  height: auto;
   padding: 10px;
-  margin: 16px;
+  margin: 1rem;
+  overflow: auto;
+  margin-top: 3rem;
 }
 
 /* Add box for blog posts */
 
-#blogPost {
+.blogPost {
   height: 450px;
-  overflow: auto;
+  justify-content: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/*Center and size blog image*/
+
+.blogMedia {
+  border-radius: 1%;
+  max-height: 100%;
+}
+
+.style {
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
-  padding-left: 30px;
-  font-family: 'PT Serif', serif;
+  text-align: left;
   font-size: 1rem;
-  min-width: 300px;
-  max-width: 600px;
-  min-height: 150px;
-  max-height: 300px;
+  color: rgb(41, 41, 41);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
 }
 
 h2 {
-  font-family: 'PT Serif', serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin: auto;
-  color: black;
   text-align: center;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: auto;
+  text-align: center;
+}
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .title{
+  .title {
     display: block;
     font-family: 'PT Serif', serif;
     font-size: 3rem;
@@ -199,4 +232,4 @@ h2 {
     width: auto;
     max-height: 50%;
     display: block;
-}
+  }
