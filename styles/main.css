@@ -182,26 +182,3 @@ h2 {
   color: black;
   text-align: center;
 }
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .title{
-    display: block;
-    font-family: 'PT Serif', serif;
-    font-size: 4rem;
-    text-align: left;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    margin-right: 10%;
-    height: 100rem;
-    width: 50%;
-    overflow: hidden;
-  }
-
-  .titleImage {
-    border-radius: 20%;
-    margin-left: 15%;
-    width: auto;
-    max-height: 90%;
-    display: block;
-}
