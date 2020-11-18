@@ -9,11 +9,11 @@
   display: flex;
   flex-direction: row;
   font-family: 'PT Serif', serif;
-  font-size: 60px;
+  font-size: 4em;
   text-align: left;
   margin-top: 10%;
   margin-left: 10%;
-  margin-bottom: 10%
+  margin-bottom: 10%;
 }
 
 /* Make front page image rounded */
@@ -31,7 +31,7 @@
   list-style: none;
   text-align: center;
   font-family: 'PT Serif', serif;
-  font-size: 30px;
+  font-size: 2em;
   background-color: white;
   margin: 30px;
   width: 150px;
@@ -59,7 +59,7 @@
   display: inline-block;
   text-align: center;
   font-family: 'PT Serif', serif;
-  font-size: 30px;
+  font-size: 1.75em;
   background-color: white;
   margin: 30px;
   padding-bottom: 20%;
@@ -90,10 +90,10 @@
   border: 0;
   outline: none;
   font-family: 'PT Serif', serif;
-  font-size: 20px;
+  font-size: 1.5em;
   position: fixed;
-  bottom: 16px;
-  left: 90%;
+  bottom: 1em;
+  right: 1em;
 }
 
 .buttonFoot:hover {
@@ -115,7 +115,7 @@
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5em;
 }
 
 /* Change the colour of Nav links on hover */
@@ -157,12 +157,12 @@
 p {
   padding-left: 30px;
   font-family: 'PT Serif', serif;
-  font-size: 15px;
+  font-size: 1em;
 }
 
 h2 {
   font-family: 'PT Serif', serif;
-  font-size: 40px;
+  font-size: 2.5em;
   margin: auto;
   color: black;
   text-align: center;
