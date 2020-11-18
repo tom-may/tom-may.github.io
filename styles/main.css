@@ -1,22 +1,24 @@
 /* Set base font size for rem consistency */
 html{
-  font-size:16px
+  font-size:16px;
   font-family: 'PT Serif', serif;
 }
 
-/* Make content responsive*/
+/* Max content size*/
 .content {
   max-width: 960px;
   margin: auto;
 }
 
-/* Add consistent title for subsequent pages */
-.title {
+.titlePage {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Title for home page */
+.title{
   display: flex;
   flex-direction: row;
-  font-family: 'PT Serif', serif;
-  font-size: 3rem;
-  text-align: left;
   margin-top: 10%;
   margin-left: 10%;
   margin-bottom: 10%;
@@ -26,19 +28,23 @@ html{
   overflow: hidden;
 }
 
-/* Make front page image rounded */
+.title h1{
+  font-size: 7rem;
+}
+
+/* Home page image */
 .titleImage {
   border-radius: 20%;
-  margin-left: 15%;
+  margin-left: 10%;
   width: auto;
   max-height: 90%;
   display: block;
 }
 
+/* Smaller title for subsequent pages*/
 .subTitle {
   display: flex;
   flex-direction: row;
-  font-family: 'PT Serif', serif;
   font-size: rem;
   text-align: left;
   margin-top: 1.5rem;
@@ -50,15 +56,13 @@ html{
 /* Configure page nav links as buttons */
 
 .buttons li{
-  float: left;
-  list-style: none;
+  display: inline-block;
   text-align: center;
-  font-family: 'PT Serif', serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
   background-color: white;
   margin: 30px;
-  width: 150px;
-  line-height: 60px;
+  width: 120px;
+  line-height: 4rem;
 }
 
 /* Configure page nav links as buttons */
@@ -76,35 +80,9 @@ html{
   color: red;
 }
 
-/* Configure Blog page nav links as buttons */
+/* Active button highlight */
 
-.buttonsBlog li{
-  display: inline-block;
-  text-align: center;
-  font-family: 'PT Serif', serif;
-  font-size: 1.75rem;
-  background-color: white;
-  margin: 30px;
-  width: 112px;
-  line-height: 60px;
-}
-
-/* Blog buttons color */
-
-.buttonsBlog li a {
-  text-decoration: none;
-  color: gray;
-  display: block;
-}
-
-/* Blog Button Hover */
-
-.buttonsBlog li a:hover {
-  text-decoration: none;
-  color: red;
-}
-
-.buttonsBlog li a.active {
+.buttons li a.active {
   background-color: black;
   color: white;
 }
@@ -132,7 +110,6 @@ html{
 .topNav {
   background-color: white;
   overflow: hidden;
-  font-family: 'PT Serif', serif;
 }
 
 /* Style the links inside the navigation bar */
@@ -163,7 +140,8 @@ html{
   background-color: rgb(245, 245, 245);
   margin-left: 16px;
   margin-right: 16px;
-  margin-bottom: 10%
+  margin-bottom: 10%;
+  border-radius: 5%;
 }
 
 /* Flex container for blog posts */
