@@ -1,6 +1,7 @@
 /* Set base font size for rem consistency */
 html{
   font-size:16px
+  font-family: 'PT Serif', serif;
 }
 
 /* Make content responsive*/
@@ -24,6 +25,7 @@ html{
   width: 90%;
   overflow: hidden;
 }
+
 
 /* Make front page image rounded */
 .titleImage {
@@ -93,6 +95,11 @@ html{
   color: red;
 }
 
+.buttonsBlog li a.active {
+  background-color: black;
+  color: white;
+}
+
 /* Configure link on footer*/
 
 .buttonFoot {
@@ -141,11 +148,13 @@ html{
   color: white;
 }
 
+
 /* Add background colour to blog content */
 .blogContent {
   background-color: rgb(245, 245, 245);
   margin-left: 16px;
   margin-right: 16px;
+  margin-bottom: 10%
 }
 
 /* Flex container for blog posts */
