@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   font-family: 'PT Serif', serif;
-  font-size: 4em;
+  font-size: 4rem;
   text-align: left;
   margin-top: 10%;
   margin-left: 10%;
@@ -31,7 +31,7 @@
   list-style: none;
   text-align: center;
   font-family: 'PT Serif', serif;
-  font-size: 2em;
+  font-size: 2rem;
   background-color: white;
   margin: 30px;
   width: 150px;
@@ -59,7 +59,7 @@
   display: inline-block;
   text-align: center;
   font-family: 'PT Serif', serif;
-  font-size: 1.75em;
+  font-size: 1.75rem;
   background-color: white;
   margin: 30px;
   padding-bottom: 20%;
@@ -90,7 +90,7 @@
   border: 0;
   outline: none;
   font-family: 'PT Serif', serif;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   position: fixed;
   bottom: 1em;
   right: 1em;
@@ -115,7 +115,7 @@
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 /* Change the colour of Nav links on hover */
@@ -157,12 +157,12 @@
 p {
   padding-left: 30px;
   font-family: 'PT Serif', serif;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 h2 {
   font-family: 'PT Serif', serif;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin: auto;
   color: black;
   text-align: center;
