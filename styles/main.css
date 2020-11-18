@@ -55,7 +55,7 @@ html{
 
 /* Configure page nav links as buttons */
 
-.buttons li{
+.buttons li {
   display: inline-block;
   text-align: center;
   font-size: 1.75rem;
@@ -65,7 +65,7 @@ html{
   line-height: 4rem;
 }
 
-/* Configure page nav links as buttons */
+/* Page link colour */
 
 .buttons li a {
   text-decoration: none;
@@ -73,7 +73,7 @@ html{
   display: block;
 }
 
-/* Configure page nav links as buttons */
+/* Page link hover highlight */
 
 .buttons li a:hover {
   text-decoration: none;
