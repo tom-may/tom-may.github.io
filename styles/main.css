@@ -1,3 +1,8 @@
+/* Set base font size for rem consistency */
+html{
+  font-size:16px
+}
+
 /* Make content responsive*/
 .content {
   max-width: 960px;
@@ -14,14 +19,16 @@
   margin-top: 10%;
   margin-left: 10%;
   margin-bottom: 10%;
+  height: 30rem;
 }
 
 /* Make front page image rounded */
 .titleImage {
   border-radius: 20%;
   margin-left: 15%;
-  width: 35%;
-  height: auto;
+  width: auto;
+  height: 25rem;
+
 }
 
 /* Configure page nav links as buttons */
