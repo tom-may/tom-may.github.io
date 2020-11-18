@@ -15,17 +15,16 @@ html{
   display: flex;
   flex-direction: row;
   font-family: 'PT Serif', serif;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: left;
   margin-top: 10%;
   margin-left: 10%;
   margin-bottom: 10%;
   margin-right: 10%;
-  height: 30rem;
+  height: 20rem;
   width: 90%;
   overflow: hidden;
 }
-
 
 /* Make front page image rounded */
 .titleImage {
@@ -34,6 +33,17 @@ html{
   width: auto;
   max-height: 90%;
   display: block;
+}
+
+.subTitle {
+  display: flex;
+  flex-direction: row;
+  font-family: 'PT Serif', serif;
+  font-size: rem;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-left: 7%;
+  margin-bottom: 1.5rem;
 
 }
 
@@ -75,7 +85,6 @@ html{
   font-size: 1.75rem;
   background-color: white;
   margin: 30px;
-  padding-bottom: 20%;
   width: 112px;
   line-height: 60px;
 }
@@ -202,7 +211,7 @@ h2 {
     margin-left: 10%;
     margin-bottom: 10%;
     margin-right: 10%;
-    height: 30rem;
+    height: 50rem;
     width: 100%;
     overflow: hidden;
   }
