@@ -18,12 +18,12 @@ html {
 /* Title for home page */
 .title {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin-top: 10%;
   margin-left: 10%;
   margin-bottom: 10%;
   margin-right: 10%;
-  height: 20rem;
   width: 90%;
   overflow: hidden;
 }
@@ -37,7 +37,7 @@ html {
   border-radius: 10%;
   margin-left: 10%;
   width: auto;
-  max-height: 90%;
+  height: 20rem;
   display: block;
 }
 
@@ -150,6 +150,7 @@ html {
   margin-left: 1rem;
   margin-right: 1rem;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 /* Flex container for blog posts */
