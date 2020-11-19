@@ -48,14 +48,13 @@ html {
   margin-top: 1.5rem;
   margin-left: 7%;
   margin-bottom: 1.5rem;
-
 }
 
 /* Configure page nav links as buttons */
 
 .buttons li {
-  display: inline-block;
-  text-align: center;
+  display: inline-flex;
+  justify-content: space-around;
   font-size: 1.75rem;
   background-color: white;
   margin: 30px;
