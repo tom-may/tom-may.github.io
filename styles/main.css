@@ -146,11 +146,15 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+.blogMedia {
+  display:flex;
+  justify-content: center;
+}
+
 .blogEntry {
   margin-left: 1rem;
   margin-right: 1rem;
   font-family: 'Roboto', sans-serif;
-  text-align: center;
 }
 
 /* Flex container for blog posts */
