@@ -236,3 +236,14 @@ h3 {
     max-height: 50%;
     display: block;
   }
+
+  .buttons li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    background-color: white;
+    margin: 30px;
+    width: 120px;
+    line-height: 4rem;
+  }
