@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>tom.</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class=content>
+        <div class="topNav">
+            <a href="../index.html">home.</a>
+            <a href="http://www.onepixel.co.nz/">about.</a>
+            <a href="../blog.html" class="active">blog.</a>
+            <a href="https://github.com/tom-may" target="_blank">github.</a>
+            <a href="https://www.instagram.com/tommmmmmmmay/?hl=en" target="_blank">photo.</a>
+        </div>
+
+        <div class="subTitle">
+            <header>
+                <h1>technical blog.</h1>
+            </header>
+        </div>
+        <div>
+            <ul class="buttons">
+                <li><a href="sprint1-technical.html">sprint 1.</a></li>
+                <li><a href="sprint2-technical.html">sprint 2.</a></li>
+                <li><a class="active">sprint 3.</a></li>
+                <li><a href="#">sprint 4.</a></li>
+                <li><a href="#">sprint 5.</a></li>
+            </ul>
+        </div>
+
+        <div class="blogContent">
+            <div class="blogEntry">
+                <h1>Now that's what I call sprint: 4</h1>
+                <h2>A very big and slightly exhausting sprint</h2>
+                <h3>26 November 2020</h3>
+                <div class="flex-container">
+                    <div class="blogPost">
+                        <img class="blogTitleImage" src="../images/Milford Sunset 3.jpg" alt="Boat at sunset"
+                            width="100%" height="auto">
+                        <h3>HTML and CSS - In human terms</h3>
+
+                        <p>Once upon a time, in a black and white village far far away, a priest and a mason were
+                            building a chapel. They had built the foundations using brick and mortar (html). There was
+                            an entryway (header), a prayer room (body), and a room out back for the priest (footer).
+                            Within each of these sections, were nested more elements, such as; tables, pews, altar.</p>
+
+                        <p>They were very happy with the result, although it was nothing special, when one day who
+                            should enter but the medieval queer eye for the straight mason crew. With a dash of their
+                            style (css), they began to add color to the window panes (color/background-color), intricate
+                            design to the stone (font), and rearranged the layout of the church rooms for a more
+                            balanced Feng Shui (grid/box model).</p>
+
+                        <p>And so, css linked to html to design a spectacular new chapel (website)</p>
+
+                        <h3>Control flow - It's just like a shopping list:</h3>
+
+                        <p>Control flow is the order in which code is run, and code runs from top to bottom, plain and
+                            simple. Except it’s not so plain and simple. Code will always be filled with wonderful
+                            things called conditionals and loops. These structures have the availability to change
+                            control flow.</p>
+
+                        <p>Let's look at an example - a trip to the supermarket.</p>
+
+                        <p>To help us understand control flow, I’m going to explain our trip to the supermarket using a
+                            for...in loop. A for..in loop is used when dealing with a variable that is an object. I’ll
+                            have more information on an object for you later, but for now, all we need to know is that
+                            an object is essentially a list, much like a shopping list. In this list we have properties,
+                            and these are made of keys and values. In our shopping list, our key is the fruit that we
+                            need, and the value would be the number of fruit we need. It might look like this:</p>
+
+                        <p>Var shoppingList = {<br>
+                            Apples : 6,<br>
+                            Bananas : 4,<br>
+                            Oranges : 64<br>
+                            } </p>
+
+                        <p>Now that’s a lot of oranges.</p>
+
+                        <p>So we have our object, but what about the juicy for...in loop. Well, it works like this:</p>
+
+                        <p>for (Apple in shoppingList) {<br>
+                            Add 6 Apples to shoppingCart<br>
+                            }</p>
+
+                        <p>It will run through the list, see we need apples, see that we need 6 apples, and it will add
+                            6 apples to our shopping cart.</p>
+
+                        <p>Then it will run again, doing the same for bananas:</p>
+
+                        <p>for (Banana in shoppingList) { <br>
+                            Add 4 bananas to shoppingCart<br>
+                            }</p>
+
+                        <p>And it will do this until it reaches the end of our shopping list. I wish shopping was this
+                            easy, but I do hope it doesn’t pick any brown bananas…</p>
+
+                        <p>But what about control flow? What has this got to do with the order in which code is run?</p>
+
+                        <p>Well, imagine the first thing we do in the morning is eatFruit. What if eatFruit is not
+                            possible because there is no fruit? Well then we would goShoppingForFruit, where we would
+                            use our shoppingList.</p>
+
+                        <p>As you can see, this would put our shoppingList pretty high up on our day of code, way above
+                            eatLunch. But what if we do have Fruit? Then we would eatFruit && beHappy. Our shoppingList
+                            loop would be ignored and we would go on with our day happily filled with fruit. Control
+                            Flow.</p>
+
+                        <h3>What is the DOM?</h3>
+
+                        <p>The DOM (Document Object Model) is essentially the glue that holds HTML, CSS, and JavaScript
+                            together. </p>
+
+                        <p>The DOM is made up of two important features:</p>
+
+                        <ol>
+                            <li><strong>Objects</strong> - These are all of the properties, methods and events available
+                                for creating and manipulating webpages.</li>
+                            <li><strong>Nodes</strong> - EVERYTHING. They are every little bit of a document. In an HTML
+                                doc, we can have, text nodes, attribute nodes, id or class class nodes.</li>
+                        </ol>
+
+                        <p>These two important distinctions can allow us to do whatever we please to a webpage. For
+                            example, we may have some text (node) that says “Howdy, stranger!”, followed by a text box
+                            with a prompt to write in your own name, and a submit button, which gives us a new node of
+                            the submitted name. Using the DOM, we can get JavaScript to take the submitted name node,
+                            and replace the original text node in our HTML document to say:“Howdy, Your Majesty!”
+                            (Presuming the Queen visits our page).</p>
+
+                        <h3>Arrays and Objects - and how do we crack open the coconut to access their sweet sweet
+                            water(data).</h3>
+
+                        <p><strong>Objects</strong> (sound familiar?) are used to represent a “thing” in your code. That
+                            could be a person, a car, a <em>shoppingList</em>. Basically objects can be defined by a set
+                            of characteristics called properties, made up of a key and a value.</p>
+
+                        <p>To access data in an object, we can use . or [ ].</p>
+                        <p>To get info on our shoppingList we would code:</p>
+
+                        <p>Dot notation:</p>
+                        <p>shoppingList.apples - which will return 6</p>
+
+                        <p>Or</p>
+
+                        <p>Bracket notation:</p>
+                        <p>shoppingList['apples'] - which again will return 6</p>
+
+
+                        <p><strong>Arrays</strong> on the other hand, are lists that contain a single variable. As such,
+                            a shoppingList Array would simply look like (apples,timtams,bananas,oranges,)</p>
+
+                        <p>Let’s say our shoppingList is ordered by level of importance, and we for some odd reason
+                            would like to know what our second most important piece of produce to purchase is.
+                            Well then, it is important to know that Arrays always use zero-based indexing. This means
+                            that the first item on our list is associated with 0, the next 1, then 2, 3,4 and so on and
+                            so forth.</p>
+
+                        <p>So, if we want to access the information of our second most important item from the
+                            supermarket (and the nation's favourite biscuit). We write:</p>
+
+                        <p>shoppingListArray[1]; which returns timtams! Woohoo.</p>
+
+                        <h3>Explain what functions are and why they are useful.</h3>
+
+                        <p>What is a function? Well, most importantly, a function is a reusable piece of code.
+                            Essentially, we can write a piece of code, give it a name, and use it as much as we like by
+                            calling its name. This can save a lot of time and energy, as we don't have to write the code
+                            out again, we just call the function! woohoo!</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <footer><a href="https://www.youtube.com/watch?v=fWNaR-rxAic" target="_blank"><button class="buttonFoot"
+                    type="button">Contact</button></a>
+        </footer>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
