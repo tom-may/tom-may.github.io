@@ -39,18 +39,20 @@ html {
   display: block;
 }
 
-/* Smaller title for subsequent pages*/
-.subTitle {
-  display: flex;
-  flex-direction: row;
-  font-size: rem;
-  text-align: left;
-  margin-top: 1.5rem;
-  margin-left: 7%;
-  margin-bottom: 1.5rem;
+/* Configure page nav links as buttons */
+.titleButtons li {
+  display: inline-flex;
+  justify-content: space-around;
+  font-size: 1.75rem;
+  background-color: white;
+  margin: 30px;
+  width: 120px;
+  line-height: 4rem;
+  text-decoration: none;
+  color: gray;
+  display: block;
 }
 
-/* Configure page nav links as buttons */
 
 .buttons li {
   display: inline-flex;
@@ -60,6 +62,7 @@ html {
   margin: 30px;
   width: 120px;
   line-height: 4rem;
+  padding-left: 0%;
 }
 
 /* Page link colour */
@@ -82,6 +85,7 @@ html {
 .buttons li a.active {
   background-color: black;
   color: white;
+  padding: 8px;
 }
 
 /* Configure link on footer*/
@@ -228,20 +232,13 @@ h3 {
     font-family: 'PT Serif', serif;
     font-size: 3rem;
     text-align: left;
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    margin-right: 10%;
-    height: 40rem;
+    height: 10rem;
     width: 100%;
     overflow: hidden;
   }
 
   .titleImage {
-    border-radius: 20%;
-    width: auto;
-    max-height: 50%;
-    display: block;
+    height: 0;
   }
 
   .buttons li {
@@ -253,5 +250,12 @@ h3 {
     margin: 30px;
     width: 120px;
     line-height: 4rem;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
