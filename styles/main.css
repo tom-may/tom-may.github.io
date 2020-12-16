@@ -135,6 +135,12 @@ html {
   color: white;
 }
 
+/*Logos */
+.fa {
+  background: white;
+  color: gray;
+  padding: 1rem;
+}
 
 /* Add background colour to blog content */
 .blogContent {
