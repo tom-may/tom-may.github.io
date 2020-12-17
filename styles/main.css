@@ -98,6 +98,9 @@ html {
 .topNav {
   background-color: white;
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Style the links inside the navigation bar */
@@ -105,7 +108,7 @@ html {
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 14px;
+  padding: 1rem;
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -198,7 +201,7 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
-  margin-left: 0%;
+  margin;
   padding-top: 2rem;
 }
 
@@ -222,11 +225,16 @@ h3 {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .titlePage {
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-left: 0;
   }
   
+  ul {
+    padding-left: 0%;
+  }
+
   .title {
     justify-content: flex-end;
     font-family: 'PT Serif', serif;
@@ -243,10 +251,10 @@ h3 {
 
   .buttons li {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 1.75rem;
     background-color: white;
-    margin-left: 4.2rem;
     width: 120px;
     line-height: 4rem;
     padding-left: 0px;
@@ -257,15 +265,9 @@ h3 {
     margin-bottom: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-left: 2.2rem;
   }
-  footer {
-    display: flex;
-    justify-content: flex-start;
-    background-color: white;
-  }
-
-  .buttonFoot {
-    right: 8.6rem;
-   
+  button {
+    justify-content: center;
   }
 }
