@@ -148,10 +148,20 @@ html {
   justify-content: center;
 }
 
+
 .blogEntry {
   margin-left: 1rem;
   margin-right: 1rem;
   font-family: 'Roboto', sans-serif;
+}
+
+/* Flex container for buttons */
+.flexContainerButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Flex container for blog posts */
@@ -224,13 +234,6 @@ h3 {
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .flexContainerButtons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 0;
-    margin-right: 0;
-  }
   
   ul {
     padding-left: 0%;
